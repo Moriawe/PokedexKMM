@@ -1,0 +1,93 @@
+package com.moriawe.kmmapilist.core.presentation.theme
+
+object Colors {
+    const val md_theme_light_primary = 0xFF006A66
+    const val md_theme_light_onPrimary = 0xFFFFFFFF
+    const val md_theme_light_primaryContainer = 0xFF70F7EF
+    const val md_theme_light_onPrimaryContainer = 0xFF00201E
+    const val md_theme_light_secondary = 0xFF4A6361
+    const val md_theme_light_onSecondary = 0xFFFFFFFF
+    const val md_theme_light_secondaryContainer = 0xFFCCE8E5
+    const val md_theme_light_onSecondaryContainer = 0xFF051F1E
+    const val md_theme_light_tertiary = 0xFF49607B
+    const val md_theme_light_onTertiary = 0xFFFFFFFF
+    const val md_theme_light_tertiaryContainer = 0xFFD0E4FF
+    const val md_theme_light_onTertiaryContainer = 0xFF011D34
+    const val md_theme_light_error = 0xFFBA1A1A
+    const val md_theme_light_errorContainer = 0xFFFFDAD6
+    const val md_theme_light_onError = 0xFFFFFFFF
+    const val md_theme_light_onErrorContainer = 0xFF410002
+    const val md_theme_light_background = 0xFFFAFDFB
+    const val md_theme_light_onBackground = 0xFF191C1C
+    const val md_theme_light_surface = 0xFFFAFDFB
+    const val md_theme_light_onSurface = 0xFF191C1C
+    const val md_theme_light_surfaceVariant = 0xFFDAE5E3
+    const val md_theme_light_onSurfaceVariant = 0xFF3F4948
+    const val md_theme_light_outline = 0xFF6F7978
+    const val md_theme_light_inverseOnSurface = 0xFFEFF1F0
+    const val md_theme_light_inverseSurface = 0xFF2D3131
+    const val md_theme_light_inversePrimary = 0xFF4EDAD3
+    const val md_theme_light_shadow = 0xFF000000
+    const val md_theme_light_surfaceTint = 0xFF006A66
+    const val md_theme_light_outlineVariant = 0xFFBEC9C7
+    const val md_theme_light_scrim = 0xFF000000
+
+    const val md_theme_dark_primary = 0xFF4EDAD3
+    const val md_theme_dark_onPrimary = 0xFF003735
+    const val md_theme_dark_primaryContainer = 0xFF00504D
+    const val md_theme_dark_onPrimaryContainer = 0xFF70F7EF
+    const val md_theme_dark_secondary = 0xFFB0CCC9
+    const val md_theme_dark_onSecondary = 0xFF1B3533
+    const val md_theme_dark_secondaryContainer = 0xFF324B49
+    const val md_theme_dark_onSecondaryContainer = 0xFFCCE8E5
+    const val md_theme_dark_tertiary = 0xFFB0C9E7
+    const val md_theme_dark_onTertiary = 0xFF19324A
+    const val md_theme_dark_tertiaryContainer = 0xFF314962
+    const val md_theme_dark_onTertiaryContainer = 0xFFD0E4FF
+    const val md_theme_dark_error = 0xFFFFB4AB
+    const val md_theme_dark_errorContainer = 0xFF93000A
+    const val md_theme_dark_onError = 0xFF690005
+    const val md_theme_dark_onErrorContainer = 0xFFFFDAD6
+    const val md_theme_dark_background = 0xFF191C1C
+    const val md_theme_dark_onBackground = 0xFFE0E3E2
+    const val md_theme_dark_surface = 0xFF191C1C
+    const val md_theme_dark_onSurface = 0xFFE0E3E2
+    const val md_theme_dark_surfaceVariant = 0xFF3F4948
+    const val md_theme_dark_onSurfaceVariant = 0xFFBEC9C7
+    const val md_theme_dark_outline = 0xFF889391
+    const val md_theme_dark_inverseOnSurface = 0xFF191C1C
+    const val md_theme_dark_inverseSurface = 0xFFE0E3E2
+    const val md_theme_dark_inversePrimary = 0xFF006A66
+    const val md_theme_dark_shadow = 0xFF000000
+    const val md_theme_dark_surfaceTint = 0xFF4EDAD3
+    const val md_theme_dark_outlineVariant = 0xFF3F4948
+    const val md_theme_dark_scrim = 0xFF000000
+
+    const val seed = 0xFF00837E
+
+    const val typeNormal_hexcolor = 0xFFA8A77A
+    const val typeFire_hexcolor = 0xFFEE8130
+    const val typeWater_hexcolor = 0xFF6390F0
+    const val typeElectric_hexcolor = 0xFFF7D02C
+    const val typeGrass_hexcolor = 0xFF7AC74C
+    const val typeIce_hexcolor = 0xFF96D9D6
+    const val typeFighting_hexcolor = 0xFFC22E28
+    const val typePoison_hexcolor = 0xFFA33EA1
+    const val typeGround_hexcolor = 0xFFE2BF65
+    const val typeFlying_hexcolor = 0xFFA98FF3
+    const val typePsychic_hexcolor = 0xFFF95587
+    const val typeBug_hexcolor = 0xFFA6B91A
+    const val typeRock_hexcolor = 0xFFB6A136
+    const val typeGhost_hexcolor = 0xFF735797
+    const val typeDragon_hexcolor = 0xFF6F35FC
+    const val typeDark_hexcolor = 0xFF705746
+    const val typeSteel_hexcolor = 0xFFB7B7CE
+    const val typeFairy_hexcolor = 0xFFD685AD
+
+    const val HPColor_hexcolor = 0xFFF5FF00
+    const val AtkColor_hexcolor = 0xFFFF0000
+    const val DefColor_hexcolor = 0xFF0000FF
+    const val SpAtkColor_hexcolor = 0xFF800080
+    const val SpDefColor_hexcolor = 0xFFff00b3
+    const val SpdColor_hexcolor = 0xFF49b21b
+}
