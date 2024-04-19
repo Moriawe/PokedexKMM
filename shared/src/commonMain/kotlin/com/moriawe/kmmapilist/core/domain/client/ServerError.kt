@@ -8,7 +8,7 @@ enum class ServerError {
 }
 
 class ServerException(
-    val error: ServerError
+    private val error: ServerError
 ): Exception(
-    message = "An error occured: $error"
+    //message = "An error occurred: $error"
 )

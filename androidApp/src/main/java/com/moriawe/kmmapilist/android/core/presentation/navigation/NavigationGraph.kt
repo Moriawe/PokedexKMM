@@ -34,15 +34,21 @@ fun NavigationGraph(
 
         }
         composable(
-            "pokemon_detail_screen/{pokemonName}",
+            "pokemon_detail_screen/{pokemonName}/{pokemonType}",
             arguments = listOf(
                 navArgument("pokemonName") {
+                    type = NavType.StringType
+                },
+                navArgument("pokemonType") {
                     type = NavType.StringType
                 }
             )
         ) {
             val pokemonName = remember {
                 it.arguments?.getString("pokemonName")
+            }
+            val pokemonType = remember {
+                it.arguments?.getString("pokemonType")
             }
         }
     }

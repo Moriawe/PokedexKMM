@@ -13,7 +13,10 @@ kotlin {
             }
         }
     }
-    
+
+    // Temporary solution to fix gradle error in Iguana
+    task("testClasses")
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -32,7 +35,6 @@ kotlin {
             implementation(libs.ktor.serialization.kotlinx.json)
             implementation(libs.sql.delight.runtime)
             implementation(libs.sql.delight.coroutines.extensions)
-            //implementation(libs.compose.ui)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -40,6 +42,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.ktor.android)
             implementation(libs.sql.delight.android.driver)
+            implementation(libs.compose.ui)
         }
         iosMain.dependencies {
             implementation(libs.ktor.ios)
