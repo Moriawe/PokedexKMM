@@ -1,4 +1,4 @@
-package com.moriawe.kmmapilist.android.core.presentation.PokemonList
+package com.moriawe.kmmapilist.core.presentation.PokemonList
 
 sealed interface PokemonListEvent {
     data object GoToDetailScreen: PokemonListEvent
